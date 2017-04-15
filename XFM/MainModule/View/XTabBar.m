@@ -61,6 +61,18 @@
     self.middleView.y = self.height - self.middleView.height;
 }
 
+- (BOOL)pointInside:(CGPoint)point withEvent:(UIEvent *)event {
+    
+    CGPoint pointInMiddleBtn = [self convertPoint:point toView:self.middleView];
+    CGPoint middleCenter = CGPointMake(self.middleView.width * 0.5, self.middleView.height * 0.5);
+    CGFloat distance = sqrt(pow(pointInMiddleBtn.x - middleCenter.x, 2) + pow(pointInMiddleBtn.y - middleCenter.y, 2));
+    NSLog(@"%@", NSStringFromCGPoint(pointInMiddleBtn));
+    if (distance > self.middleView.width * 0.5 && pointInMiddleBtn.y < self.middleView.height - self.height) {
+        return NO;
+    }
+    return YES;
+}
+
 #pragma mark - setter
 - (void)setMiddleClickBlock:(void (^)(BOOL))middleClickBlock {
     self.middleView.middleClickBlock = middleClickBlock;
