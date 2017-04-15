@@ -1,0 +1,16 @@
+//
+//  CALayer+XAnimate.h
+//  XFM
+//
+//  Created by 张鑫 on 2017/4/15.
+//  Copyright © 2017年 张鑫. All rights reserved.
+//
+
+#import <QuartzCore/QuartzCore.h>
+
+@interface CALayer (XAnimate)
+
+- (void)pauseAnimate;
+- (void)resumeAnimate;
+
+@end

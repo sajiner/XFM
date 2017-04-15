@@ -15,6 +15,17 @@
 		AE0AFEAF1EA1FE8A00A57E33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0AFEAD1EA1FE8A00A57E33 /* LaunchScreen.storyboard */; };
 		AE0AFEBA1EA1FE8A00A57E33 /* XFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEB91EA1FE8A00A57E33 /* XFMTests.m */; };
 		AE0AFEC51EA1FE8B00A57E33 /* XFMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEC41EA1FE8B00A57E33 /* XFMUITests.m */; };
+		AE0AFED91EA21A8900A57E33 /* XTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFED81EA21A8900A57E33 /* XTabBarController.m */; };
+		AE0AFEDC1EA21AA200A57E33 /* XNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEDB1EA21AA200A57E33 /* XNavigationController.m */; };
+		AE0AFEDF1EA21ACF00A57E33 /* XNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEDE1EA21ACF00A57E33 /* XNavigationBar.m */; };
+		AE0AFEE21EA21AE100A57E33 /* XTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEE11EA21AE100A57E33 /* XTabBar.m */; };
+		AE0AFEE51EA21AF400A57E33 /* XMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEE41EA21AF400A57E33 /* XMiddleView.m */; };
+		AE0AFEEB1EA21B7800A57E33 /* XMiddleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE0AFEEA1EA21B7800A57E33 /* XMiddleView.xib */; };
+		AE0AFEF11EA220CE00A57E33 /* UIView+XLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEF01EA220CE00A57E33 /* UIView+XLayout.m */; };
+		AE0AFEF71EA2262300A57E33 /* UIImage+XImage.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEF61EA2262300A57E33 /* UIImage+XImage.m */; };
+		AE0AFEFA1EA22F5500A57E33 /* XTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEF91EA22F5500A57E33 /* XTestController.m */; };
+		AE0AFEFD1EA2338400A57E33 /* CALayer+XAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEFC1EA2338400A57E33 /* CALayer+XAnimate.m */; };
+		AE0AFF001EA23B1100A57E33 /* XTestSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEFF1EA23B1100A57E33 /* XTestSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +62,27 @@
 		AE0AFEC01EA1FE8B00A57E33 /* XFMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XFMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0AFEC41EA1FE8B00A57E33 /* XFMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XFMUITests.m; sourceTree = "<group>"; };
 		AE0AFEC61EA1FE8B00A57E33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0AFED71EA21A8900A57E33 /* XTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTabBarController.h; sourceTree = "<group>"; };
+		AE0AFED81EA21A8900A57E33 /* XTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTabBarController.m; sourceTree = "<group>"; };
+		AE0AFEDA1EA21AA200A57E33 /* XNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNavigationController.h; sourceTree = "<group>"; };
+		AE0AFEDB1EA21AA200A57E33 /* XNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNavigationController.m; sourceTree = "<group>"; };
+		AE0AFEDD1EA21ACF00A57E33 /* XNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XNavigationBar.h; sourceTree = "<group>"; };
+		AE0AFEDE1EA21ACF00A57E33 /* XNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XNavigationBar.m; sourceTree = "<group>"; };
+		AE0AFEE01EA21AE100A57E33 /* XTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTabBar.h; sourceTree = "<group>"; };
+		AE0AFEE11EA21AE100A57E33 /* XTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTabBar.m; sourceTree = "<group>"; };
+		AE0AFEE31EA21AF400A57E33 /* XMiddleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMiddleView.h; sourceTree = "<group>"; };
+		AE0AFEE41EA21AF400A57E33 /* XMiddleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMiddleView.m; sourceTree = "<group>"; };
+		AE0AFEEA1EA21B7800A57E33 /* XMiddleView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMiddleView.xib; sourceTree = "<group>"; };
+		AE0AFEEF1EA220CE00A57E33 /* UIView+XLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XLayout.h"; sourceTree = "<group>"; };
+		AE0AFEF01EA220CE00A57E33 /* UIView+XLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XLayout.m"; sourceTree = "<group>"; };
+		AE0AFEF51EA2262300A57E33 /* UIImage+XImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+XImage.h"; sourceTree = "<group>"; };
+		AE0AFEF61EA2262300A57E33 /* UIImage+XImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XImage.m"; sourceTree = "<group>"; };
+		AE0AFEF81EA22F5500A57E33 /* XTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTestController.h; sourceTree = "<group>"; };
+		AE0AFEF91EA22F5500A57E33 /* XTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTestController.m; sourceTree = "<group>"; };
+		AE0AFEFB1EA2338400A57E33 /* CALayer+XAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XAnimate.h"; sourceTree = "<group>"; };
+		AE0AFEFC1EA2338400A57E33 /* CALayer+XAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XAnimate.m"; sourceTree = "<group>"; };
+		AE0AFEFE1EA23B1100A57E33 /* XTestSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTestSecondViewController.h; sourceTree = "<group>"; };
+		AE0AFEFF1EA23B1100A57E33 /* XTestSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTestSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +133,16 @@
 		AE0AFE9E1EA1FE8A00A57E33 /* XFM */ = {
 			isa = PBXGroup;
 			children = (
+				AE0AFEEC1EA220B000A57E33 /* Category */,
+				AE0AFED41EA1FECD00A57E33 /* MainModule */,
 				AE0AFEA21EA1FE8A00A57E33 /* AppDelegate.h */,
 				AE0AFEA31EA1FE8A00A57E33 /* AppDelegate.m */,
 				AE0AFEA51EA1FE8A00A57E33 /* ViewController.h */,
 				AE0AFEA61EA1FE8A00A57E33 /* ViewController.m */,
+				AE0AFEF81EA22F5500A57E33 /* XTestController.h */,
+				AE0AFEF91EA22F5500A57E33 /* XTestController.m */,
+				AE0AFEFE1EA23B1100A57E33 /* XTestSecondViewController.h */,
+				AE0AFEFF1EA23B1100A57E33 /* XTestSecondViewController.m */,
 				AE0AFEA81EA1FE8A00A57E33 /* Main.storyboard */,
 				AE0AFEAB1EA1FE8A00A57E33 /* Assets.xcassets */,
 				AE0AFEAD1EA1FE8A00A57E33 /* LaunchScreen.storyboard */,
@@ -138,6 +176,53 @@
 				AE0AFEC61EA1FE8B00A57E33 /* Info.plist */,
 			);
 			path = XFMUITests;
+			sourceTree = "<group>";
+		};
+		AE0AFED41EA1FECD00A57E33 /* MainModule */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFED51EA21A5000A57E33 /* Controller */,
+				AE0AFED61EA21A5000A57E33 /* View */,
+			);
+			path = MainModule;
+			sourceTree = "<group>";
+		};
+		AE0AFED51EA21A5000A57E33 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFED71EA21A8900A57E33 /* XTabBarController.h */,
+				AE0AFED81EA21A8900A57E33 /* XTabBarController.m */,
+				AE0AFEDA1EA21AA200A57E33 /* XNavigationController.h */,
+				AE0AFEDB1EA21AA200A57E33 /* XNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AE0AFED61EA21A5000A57E33 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFEDD1EA21ACF00A57E33 /* XNavigationBar.h */,
+				AE0AFEDE1EA21ACF00A57E33 /* XNavigationBar.m */,
+				AE0AFEE01EA21AE100A57E33 /* XTabBar.h */,
+				AE0AFEE11EA21AE100A57E33 /* XTabBar.m */,
+				AE0AFEE31EA21AF400A57E33 /* XMiddleView.h */,
+				AE0AFEE41EA21AF400A57E33 /* XMiddleView.m */,
+				AE0AFEEA1EA21B7800A57E33 /* XMiddleView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE0AFEEC1EA220B000A57E33 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AE0AFEEF1EA220CE00A57E33 /* UIView+XLayout.h */,
+				AE0AFEF01EA220CE00A57E33 /* UIView+XLayout.m */,
+				AE0AFEF51EA2262300A57E33 /* UIImage+XImage.h */,
+				AE0AFEF61EA2262300A57E33 /* UIImage+XImage.m */,
+				AE0AFEFB1EA2338400A57E33 /* CALayer+XAnimate.h */,
+				AE0AFEFC1EA2338400A57E33 /* CALayer+XAnimate.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +287,7 @@
 		AE0AFE941EA1FE8A00A57E33 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = X;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "张鑫";
 				TargetAttributes = {
@@ -248,6 +334,7 @@
 			files = (
 				AE0AFEAF1EA1FE8A00A57E33 /* LaunchScreen.storyboard in Resources */,
 				AE0AFEAC1EA1FE8A00A57E33 /* Assets.xcassets in Resources */,
+				AE0AFEEB1EA21B7800A57E33 /* XMiddleView.xib in Resources */,
 				AE0AFEAA1EA1FE8A00A57E33 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +360,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE0AFEFD1EA2338400A57E33 /* CALayer+XAnimate.m in Sources */,
+				AE0AFEE21EA21AE100A57E33 /* XTabBar.m in Sources */,
+				AE0AFF001EA23B1100A57E33 /* XTestSecondViewController.m in Sources */,
+				AE0AFEF11EA220CE00A57E33 /* UIView+XLayout.m in Sources */,
+				AE0AFEDC1EA21AA200A57E33 /* XNavigationController.m in Sources */,
+				AE0AFEE51EA21AF400A57E33 /* XMiddleView.m in Sources */,
 				AE0AFEA71EA1FE8A00A57E33 /* ViewController.m in Sources */,
 				AE0AFEA41EA1FE8A00A57E33 /* AppDelegate.m in Sources */,
+				AE0AFEF71EA2262300A57E33 /* UIImage+XImage.m in Sources */,
+				AE0AFED91EA21A8900A57E33 /* XTabBarController.m in Sources */,
+				AE0AFEDF1EA21ACF00A57E33 /* XNavigationBar.m in Sources */,
 				AE0AFEA11EA1FE8A00A57E33 /* main.m in Sources */,
+				AE0AFEFA1EA22F5500A57E33 /* XTestController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
