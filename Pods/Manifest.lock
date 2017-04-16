@@ -1,0 +1,18 @@
+PODS:
+  - XFMBase/Category (0.2.0)
+  - XFMMain (0.2.0):
+    - XFMBase/Category
+  - XPageView (0.1.0)
+
+DEPENDENCIES:
+  - XFMMain
+  - XPageView
+
+SPEC CHECKSUMS:
+  XFMBase: 169698411d8c80e28081788132be2c3b0b336321
+  XFMMain: 7d8bffdfdf0dc428abfd525bc11f28319e521102
+  XPageView: 2ec38d426865cc90fce9a8be01401120f1d09efc
+
+PODFILE CHECKSUM: 37bc42e5d8ee855e91fb4b0305b5fb472acc4b39
+
+COCOAPODS: 1.2.0

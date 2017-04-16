@@ -1,0 +1,6 @@
+framework module Pods_XFM {
+  umbrella header "Pods-XFM-umbrella.h"
+
+  export *
+  module * { export * }
+}

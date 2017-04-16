@@ -1,0 +1,6 @@
+framework module XPageView {
+  umbrella header "XPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}
