@@ -7,14 +7,28 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XTitleViewConfig.h"
 
-@class XTitleView;
 @interface XPageView : UIView
 
-@property (nonatomic, strong) XTitleView *titleView;
+@property (nonatomic, assign) NSInteger currentIndex;
 
-- (instancetype)initWithFrame:(CGRect)frame titles: (NSArray *)titles childVcs: (NSArray *)childVcs ;
+/**
+ 初始化方法
+ 
+ @param frame frame
+ @param titles 标题数组
+ @param childVcs 子控制器
+ @param parentVc 父控制器
+ @return 返回XPageView对象
+ */
+- (instancetype)initWithFrame:(CGRect)frame titles: (NSArray *)titles childVcs: (NSArray *)childVcs parentVc: (UIViewController *)parentVc;
 
-//- (void)updateWithConfig: (void(^)(XTitleViewConfig *config))configBlock;
+/**
+ 更新配置
+ 
+ @param configBlock block
+ */
+- (void)updateWithConfig: (void(^)(XTitleViewConfig *config))configBlock;
 
 @end

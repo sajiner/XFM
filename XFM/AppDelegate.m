@@ -9,6 +9,9 @@
 #import "AppDelegate.h"
 #import "XMainModuleAPI.h"
 #import "XHomeController.h"
+#import "XSubscribeController.h"
+#import "XDiscoverController.h"
+#import "XMineController.h"
 
 @interface AppDelegate ()
 
@@ -21,9 +24,9 @@
     
     UITabBarController *rootVc = [XMainModuleAPI rootTabBarCcontroller];
     [XMainModuleAPI addChildVC:[XHomeController new] normalImageName:@"tabbar_find_n" selectedImageName:@"tabbar_find_h" isRequiredNavController:YES];
-    [XMainModuleAPI addChildVC:[UIViewController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
-    [XMainModuleAPI addChildVC:[UIViewController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
-    [XMainModuleAPI addChildVC:[UIViewController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
+    [XMainModuleAPI addChildVC:[XSubscribeController new] normalImageName:@"tabbar_sound_n" selectedImageName:@"tabbar_sound_h" isRequiredNavController:YES];
+    [XMainModuleAPI addChildVC:[XDiscoverController new] normalImageName:@"tabbar_download_n" selectedImageName:@"tabbar_download_h" isRequiredNavController:YES];
+    [XMainModuleAPI addChildVC:[XMineController new] normalImageName:@"tabbar_me_n" selectedImageName:@"tabbar_me_h" isRequiredNavController:YES];
     [XMainModuleAPI setTabbarMiddleBtnClick:^(BOOL isPlaying) {
         if (isPlaying) {
             NSLog(@"播放");

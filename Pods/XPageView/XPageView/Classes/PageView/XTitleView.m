@@ -87,8 +87,8 @@
         h = (_config.isShowUnderLine ? _config.titleViewHeight - 1 : _config.titleViewHeight);
         if (_config.isScroll) {  // 如果滑动
             w = [label.text boundingRectWithSize:CGSizeMake(MAXFLOAT, 0) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{
-                              NSFontAttributeName:_config.titleFont
-                            }context:nil].size.width;
+                                                                                                                                    NSFontAttributeName:_config.titleFont
+                                                                                                                                    }context:nil].size.width;
             if (i == 0) {
                 x = _config.margin;
             } else {
@@ -113,7 +113,6 @@
 #pragma mark - event
 - (void)tap: (UITapGestureRecognizer *)tap {
     UILabel *selLabel = (UILabel *)tap.view;
-    
     if ([self.delegate respondsToSelector:@selector(titleView:didSelectIndex:fromIndex:)]) {
         [self.delegate titleView:self didSelectIndex:selLabel.tag fromIndex:_lastLabel.tag];
     }
@@ -183,6 +182,12 @@
     }
     
     _lastLabel = selLabel;
+}
+
+- (void)setCurrentIndex:(NSInteger)currentIndex {
+    _currentIndex = currentIndex;
+    UILabel *label = self.labelArr[currentIndex];
+    [self tap:label.gestureRecognizers.firstObject];
 }
 
 #pragma mark - lazy

@@ -19,6 +19,9 @@
 		AE0AFEFA1EA22F5500A57E33 /* XTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEF91EA22F5500A57E33 /* XTestController.m */; };
 		AE0AFF001EA23B1100A57E33 /* XTestSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFEFF1EA23B1100A57E33 /* XTestSecondViewController.m */; };
 		AE0AFF3B1EA37C7E00A57E33 /* XHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0AFF3A1EA37C7E00A57E33 /* XHomeController.m */; };
+		AE5E97C91EA8A6EE00C80C94 /* XDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E97C81EA8A6EE00C80C94 /* XDiscoverController.m */; };
+		AE5E97CC1EA8A6F900C80C94 /* XMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E97CB1EA8A6F900C80C94 /* XMineController.m */; };
+		AE5E97CF1EA8A70D00C80C94 /* XSubscribeController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE5E97CE1EA8A70D00C80C94 /* XSubscribeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,12 @@
 		AE0AFF311EA3448A00A57E33 /* libPods-XFM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-XFM.a"; path = "../../Library/Developer/Xcode/DerivedData/XFM-eqwihyzunorgmeecdsrkibrvsdpr/Build/Products/Debug-iphonesimulator/libPods-XFM.a"; sourceTree = "<group>"; };
 		AE0AFF391EA37C7E00A57E33 /* XHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHomeController.h; sourceTree = "<group>"; };
 		AE0AFF3A1EA37C7E00A57E33 /* XHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHomeController.m; sourceTree = "<group>"; };
+		AE5E97C71EA8A6EE00C80C94 /* XDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XDiscoverController.h; sourceTree = "<group>"; };
+		AE5E97C81EA8A6EE00C80C94 /* XDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XDiscoverController.m; sourceTree = "<group>"; };
+		AE5E97CA1EA8A6F900C80C94 /* XMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMineController.h; sourceTree = "<group>"; };
+		AE5E97CB1EA8A6F900C80C94 /* XMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMineController.m; sourceTree = "<group>"; };
+		AE5E97CD1EA8A70D00C80C94 /* XSubscribeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSubscribeController.h; sourceTree = "<group>"; };
+		AE5E97CE1EA8A70D00C80C94 /* XSubscribeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSubscribeController.m; sourceTree = "<group>"; };
 		AEC0CA8EEDEB465748F80A54 /* Pods-XFM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XFM.release.xcconfig"; path = "Pods/Target Support Files/Pods-XFM/Pods-XFM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +140,9 @@
 		AE0AFE9E1EA1FE8A00A57E33 /* XFM */ = {
 			isa = PBXGroup;
 			children = (
+				AE5E97C41EA8A6D700C80C94 /* XDiscover */,
+				AE5E97C51EA8A6D700C80C94 /* XMine */,
+				AE5E97C61EA8A6D700C80C94 /* XSubscribe */,
 				AE0AFF381EA37C6B00A57E33 /* XHome */,
 				AE0AFEA21EA1FE8A00A57E33 /* AppDelegate.h */,
 				AE0AFEA31EA1FE8A00A57E33 /* AppDelegate.m */,
@@ -182,6 +194,33 @@
 				AE0AFF3A1EA37C7E00A57E33 /* XHomeController.m */,
 			);
 			path = XHome;
+			sourceTree = "<group>";
+		};
+		AE5E97C41EA8A6D700C80C94 /* XDiscover */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E97C71EA8A6EE00C80C94 /* XDiscoverController.h */,
+				AE5E97C81EA8A6EE00C80C94 /* XDiscoverController.m */,
+			);
+			path = XDiscover;
+			sourceTree = "<group>";
+		};
+		AE5E97C51EA8A6D700C80C94 /* XMine */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E97CA1EA8A6F900C80C94 /* XMineController.h */,
+				AE5E97CB1EA8A6F900C80C94 /* XMineController.m */,
+			);
+			path = XMine;
+			sourceTree = "<group>";
+		};
+		AE5E97C61EA8A6D700C80C94 /* XSubscribe */ = {
+			isa = PBXGroup;
+			children = (
+				AE5E97CD1EA8A70D00C80C94 /* XSubscribeController.h */,
+				AE5E97CE1EA8A70D00C80C94 /* XSubscribeController.m */,
+			);
+			path = XSubscribe;
 			sourceTree = "<group>";
 		};
 		BC918E7D266355BDD0C2FD6B /* Pods */ = {
@@ -378,8 +417,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5E97C91EA8A6EE00C80C94 /* XDiscoverController.m in Sources */,
+				AE5E97CC1EA8A6F900C80C94 /* XMineController.m in Sources */,
 				AE0AFF001EA23B1100A57E33 /* XTestSecondViewController.m in Sources */,
 				AE0AFEA71EA1FE8A00A57E33 /* ViewController.m in Sources */,
+				AE5E97CF1EA8A70D00C80C94 /* XSubscribeController.m in Sources */,
 				AE0AFEA41EA1FE8A00A57E33 /* AppDelegate.m in Sources */,
 				AE0AFF3B1EA37C7E00A57E33 /* XHomeController.m in Sources */,
 				AE0AFEA11EA1FE8A00A57E33 /* main.m in Sources */,
@@ -478,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -520,7 +562,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

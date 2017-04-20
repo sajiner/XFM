@@ -28,10 +28,11 @@
 @interface XTitleView : UIView
 
 @property (nonatomic, weak) id <XTitleViewDelegate> delegate;
+@property (nonatomic, assign) NSInteger currentIndex;
 
 /**
  初始化方法
-
+ 
  @param frame frame
  @param titles 盛放title的数组
  @return 对象
@@ -40,7 +41,7 @@
 
 /**
  更新配置
-
+ 
  @param configBlock block
  */
 - (void)updateWithConfig: (void(^)(XTitleViewConfig *config))configBlock;
